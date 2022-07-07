@@ -1,0 +1,22 @@
+display: flex;
+  flex-direction: column;
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+  font-family: "Noto Serif", serif;
+
+    grid-column-end: 2;
+    flex-direction: row-reverse;
+    margin-block-end: 2rem;
+  font-size: 1rem;
+  font-family:  Arial, sans-serif;
+  padding-right: 1em;
+
+
+ .page-title {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+nav.menu {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  }
